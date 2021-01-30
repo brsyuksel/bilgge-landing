@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/lusitana.css">
+    <link rel="stylesheet" href="css/bilgge.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <title>bilgge.</title>
+</head>
+<body>
+    <section class="section section-header">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-one-fifth is-offset-two-fifths">
+                    <h1 class="is-size-1 has-text-centered has-text-grey-dark brand-text">bilgge.</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero is-light is-medium">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-flex is-flex-direction-column">
+                        <div class="column">
+                            <p class="is-size-2">a privacy-paranoid</p>
+                            <p class="is-size-2">free service for your notes and secrets</p>
+                        </div>
+                        <div class="column">
+                            <button class="button is-primary is-large" onclick="window.location.href='https://app.bilgge.com/register'">register.</button>
+                            <button class="button is-success is-large" onclick="window.location.href='https://app.bilgge.com/login'">login</button>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="preview">
+                            <figure class="image is-16by9"><img src="img/preview.png" alt="bilgge"></figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <!-- what bilgge does -->
+            <div class="columns">
+                <div class="column has-text-centered">
+                    <span class="has-text-primary-dark is-size-2">what bilgge does is <span class="has-text-grey"><u>nothing.</u></span></span>
+                    <span class="has-text-danger is-size-2 ml-3">instead, your browser does.</span>
+                </div>
+            </div>
+            <!-- /what bilgge does -->
+
+            <div class="columns mt-4 mb-6">
+                <div class="column">
+                    <p class="is-size-4 has-text-grey-dark">bilgge is a web application which aims you to feel that you are storing your secrets in a real safe house.
+                    what makes bilgge different is its approach on privacy and security. first, instead of saying "it uses end-to-end encryption" then asking you 8+ characters password to protect your data,
+                    it gives you power to <u>encrypt your data by yourself</u> in <span class="has-text-danger">your browser</span>. this means, <u>bilgge servers never see your plain data</u>, they only store your data,
+                    encrypted in <span class="has-text-danger">your browser</span> before sent to server. and also, bilgge avoid you leave footprints behind. in app or in this page, there is no
+                    usage of cookie, tracker, localstorage and even public cdn services.</p>
+                </div>
+            </div>
+
+            <!-- cards -->
+            <div class="columns">
+                <div class="column">
+                    <div class="card info-card has-background-white-bis">
+                        <div class="card-content">
+                            <span class="icon block is-large is-size-2 has-text-grey"><i class="fas fa-github"></i></span>
+                            <p class="is-size-4 has-text-grey-dark">it is completely free and open source.</p>
+                            <p class="has-text-grey">you can run your own bilgge instance far away from eyes and take its control totally.</p>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <a class="has-text-link-dark" href="https://www.github.com/brsyuksel/bilgge-api" target="_blank">API Repository</a>
+                            </p>
+                            <p class="card-footer-item">
+                                <a class="has-text-link-dark" href="https://www.github.com/brsyuksel/bilgge-ui" target="_blank">UI Repository</a>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card info-card has-background-primary-light">
+                        <div class="card-content">
+                            <span class="icon block is-large is-size-2 has-text-grey"><i class="fas fa-user-secret"></i></span>
+                            <p class="is-size-4 has-text-grey-dark">your plain data never visits any of bilgge servers.</p>
+                            <p class="has-text-grey">bilgge encrypts your data in <span class="has-text-danger">your browser</span> before sending the servers. this means no one can see your plain data even if they have privileged access to servers.</p>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <a class="has-text-link-dark" href="#qmarks">Learn more</a>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card info-card has-background-light">
+                        <div class="card-content">
+                            <span class="icon block is-large is-size-2 has-text-grey"><i class="fas fa-lock"></i></span>
+                            <p class="is-size-4 has-text-grey-dark">uses industry standard encryption.</p>
+                            <p class="has-text-grey">bilgge encrypts your data with combination of <strong>256-bit AES</strong> and optionally increasable <strong>1024-bit RSA</strong> algorithms (in <span class="has-text-danger">your browser</span>).</p>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <a class="has-text-link-dark" href="https://en.wikipedia.org/wiki/Public-key_cryptography" target="_blank">Learn more</a>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+            <!-- /cards -->
+
+            <!-- donation -->
+            <div class="columns m-6 is-flex is-flex-direction-column">
+                <div class="column">
+                    <p class="is-size-1 has-text-centered">bilgge needs your support</p>
+                    <p class="is-size-4 has-text-grey has-text-centered">donate bilgge to keep it run</p>
+                </div>
+                <div class="column is-flex is-justify-content-space-around">
+                    <div class="has-text-centered">
+                        <img src="coin-addr/btc.png" alt="btc">
+                        <p class="has-text-grey-light">btc</p>
+                    </div>
+                    <div class="has-text-centered">
+                        <img src="coin-addr/bnb.png" alt="bnb">
+                        <p class="has-text-grey-light">bnb</p>
+                    </div>
+                    <div class="has-text-centered">
+                        <img src="coin-addr/dash.png" alt="dash">
+                        <p class="has-text-grey-light">dash</p>
+                    </div>
+                    <div class="has-text-centered">
+                        <img src="coin-addr/doge.png" alt="doge">
+                        <p class="has-text-grey-light">doge</p>
+                    </div>
+                    <div class="has-text-centered">
+                        <img src="coin-addr/zec.png" alt="zec">
+                        <p class="has-text-grey-light">zec</p>
+                    </div>
+                </div>
+            </div>
+            <!-- /donation -->
+
+            <div class="columns has-background-light is-flex is-flex-direction-column" id="qmarks">
+                <div class="column has-text-centered">
+                    <p class="is-size-1">let us rub out your question marks</p>
+                </div>
+
+                <div class="column">
+                    <p class="is-size-4 has-text-grey">&bull; why am I uploading my private key on login page?</p>
+                    <p class="is-size-6 has-text-grey">actually, you are not uploading. you only gives it to <span class="has-text-danger">your browser</span> to use it for encryption and decryption processes. when you want to login, bilgge sends you an ecrypted random text and except you to decrypt it then send plain in order to prove "it is you". <span class="has-text-danger">your browser</span> decrypts to cipher text then sends it back to bilgge, and, you are in.</p>
+                </div>
+
+                <div class="column">
+                    <p class="is-size-4 has-text-grey">&bull; how bilgge search on my content if they are encrypted?</p>
+                    <p class="is-size-6 has-text-grey">first, bilgge does not make search, it does match. when you register bilgge, <span class="has-text-danger">your browser</span> generates a unique random salt data and stores it in bilgge as encrypted. the combination of this salt data and each word of your content titles are getting hashed with sha-256 algorithm by <span class="has-text-danger">your browser</span>. when you make a search, bilgge performs this process on your keywords then tries to match them in your data. since every user has a different salt data, there is no pattern between words that some can understand.</p>
+                </div>
+
+                <div class="column">
+                    <p class="is-size-4 has-text-grey">&bull; why is my username not encrypted?</p>
+                    <p class="is-size-6 has-text-grey">because of making us able to give you support. when you contact us for a problem like deleting your account, we can not match your user account if it is encrypted.</p>
+                </div>
+
+                <div class="column">
+                    <p class="is-size-4 has-text-grey">&bull; is there a way to recover my data?</p>
+                    <p class="is-size-6 has-text-grey">no, it is not possible. make sure the world shakes when some one figure out that it is possible. if you have lost your private key, there is only one thing that we can do is delete your wasting-some-space data.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>made with<span class="icon has-text-danger-dark"><i class="fas fa-heart"></i></span>in a city that we don't want to share <span class="has-text-white">(istanbul)</span></p>
+        </div>
+    </footer>
+</body>
+</html>
