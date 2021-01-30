@@ -1,0 +1,11 @@
+{
+  "name": "bilgge-landing",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url bilgge.sass css/bilgge.css"
+  },
+  "devDependencies": {
+    "@creativebulma/bulma-divider": "1.1.0",
+    "bulma": "0.9.1",
+    "node-sass": "5.0.0"
+  }
+}
