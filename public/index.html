@@ -26,7 +26,7 @@
                     <div class="column is-flex is-flex-direction-column">
                         <div class="column">
                             <p class="is-size-2">a privacy-paranoid</p>
-                            <p class="is-size-2">free service for your notes and secrets</p>
+                            <p class="is-size-2">free service for protecting your personal information</p>
                         </div>
                         <div class="column">
                             <button class="button is-primary is-large" onclick="window.location.href='https://app.bilgge.com/register'">register.</button>
@@ -49,18 +49,18 @@
             <div class="columns">
                 <div class="column has-text-centered">
                     <span class="has-text-primary-dark is-size-2">what bilgge does is <span class="has-text-grey"><u>nothing.</u></span></span>
-                    <span class="has-text-danger is-size-2 ml-3">instead, your browser does.</span>
+                    <span class="has-text-danger is-size-2 ml-3">your browser does <u class="has-text-grey">everything.</u></span>
                 </div>
             </div>
             <!-- /what bilgge does -->
 
             <div class="columns mt-4 mb-6">
                 <div class="column">
-                    <p class="is-size-4 has-text-grey-dark">bilgge is a web application which aims you to feel that you are storing your secrets in a real safe house.
+                    <p class="is-size-4 has-text-grey-dark">bilgge is a web application which makes you feel as if you were storing data in a real safe house.
                     what makes bilgge different is its approach on privacy and security. first, instead of saying "it uses end-to-end encryption" then asking you 8+ characters password to protect your data,
                     it gives you power to <u>encrypt your data by yourself</u> in <span class="has-text-danger">your browser</span>. this means, <u>bilgge servers never see your plain data</u>, they only store your data,
-                    encrypted in <span class="has-text-danger">your browser</span> before sent to server. and also, bilgge avoid you leave footprints behind. in app or in this page, there is no
-                    usage of cookie, tracker, localstorage and even public cdn services.</p>
+                    encrypted in <span class="has-text-danger">your browser</span> before sending it to a server without leaving footprints. in our service, there is no
+                    usage of cookies, trackers, localstorage and/or public cdn services.</p>
                 </div>
             </div>
 
@@ -71,7 +71,7 @@
                         <div class="card-content">
                             <span class="icon block is-large is-size-2 has-text-grey"><i class="fas fa-github"></i></span>
                             <p class="is-size-4 has-text-grey-dark">it is completely free and open source.</p>
-                            <p class="has-text-grey">you can run your own bilgge instance far away from eyes and take its control totally.</p>
+                            <p class="has-text-grey">you can run your own bilgge instance privately and take a total control.</p>
                         </div>
                         <footer class="card-footer">
                             <p class="card-footer-item">
@@ -152,22 +152,22 @@
 
                 <div class="column">
                     <p class="is-size-4 has-text-grey">&bull; why am I uploading my private key on login page?</p>
-                    <p class="is-size-6 has-text-grey">actually, you are not uploading. you only gives it to <span class="has-text-danger">your browser</span> to use it for encryption and decryption processes. when you want to login, bilgge sends you an ecrypted random text and except you to decrypt it then send plain in order to prove "it is you". <span class="has-text-danger">your browser</span> decrypts to cipher text then sends it back to bilgge, and, you are in.</p>
+                    <p class="is-size-6 has-text-grey">actually, you are not uploading. you only give it to <span class="has-text-danger">your browser</span> to use it for encryption and decryption processes. when you want to login, bilgge sends you an ecrypted random text and expect you to decrypt it before sending plain in order to verify your identity. <span class="has-text-danger">your browser</span> decrypts to cipher text then sends it back to bilgge, and, you are in.</p>
                 </div>
 
                 <div class="column">
-                    <p class="is-size-4 has-text-grey">&bull; how bilgge search on my content if they are encrypted?</p>
-                    <p class="is-size-6 has-text-grey">first, bilgge does not make search, it does match. when you register bilgge, <span class="has-text-danger">your browser</span> generates a unique random salt data and stores it in bilgge as encrypted. the combination of this salt data and each word of your content titles are getting hashed with sha-256 algorithm by <span class="has-text-danger">your browser</span>. when you make a search, bilgge performs this process on your keywords then tries to match them in your data. since every user has a different salt data, there is no pattern between words that some can understand.</p>
+                    <p class="is-size-4 has-text-grey">&bull; how does bilgge search my encrypted content?</p>
+                    <p class="is-size-6 has-text-grey">first, bilgge does not make search, it does match. when you register bilgge, <span class="has-text-danger">your browser</span> generates a unique random salt data and stores it in bilgge as encrypted. the combination of this salt data and each word of your content titles are getting hashed with sha-256 algorithm by <span class="has-text-danger">your browser</span>. when you make a search, bilgge performs this process on your keywords then tries to match them with your data. since every user has a different salt data, there is no pattern between words that some can understand.</p>
                 </div>
 
                 <div class="column">
                     <p class="is-size-4 has-text-grey">&bull; why is my username not encrypted?</p>
-                    <p class="is-size-6 has-text-grey">because of making us able to give you support. when you contact us for a problem like deleting your account, we can not match your user account if it is encrypted.</p>
+                    <p class="is-size-6 has-text-grey">because it enables us to give you support when you contact us for a problem such as deleting your account.</p>
                 </div>
 
                 <div class="column">
                     <p class="is-size-4 has-text-grey">&bull; is there a way to recover my data?</p>
-                    <p class="is-size-6 has-text-grey">no, it is not possible. make sure the world shakes when some one figure out that it is possible. if you have lost your private key, there is only one thing that we can do is delete your wasting-some-space data.</p>
+                    <p class="is-size-6 has-text-grey">no, it is not possible. <i>make sure the world shakes when someone figures out that it is possible.</i> if you have lost your private key, there is only one thing that we can do: deleting your space occupying data.</p>
                 </div>
             </div>
 
